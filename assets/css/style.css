@@ -9,14 +9,6 @@ header {
     padding-bottom: 10px;
     height: 50px;
     position: relative;
-    z-index: -2;
-}
-
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #ff5e00;
-    margin-top: 20px;
-    float: left;
 }
 
 #nameBox {
@@ -27,8 +19,19 @@ h1 {
     position: absolute;
     bottom: 0;
     left: 100;
-    z-index: -1;
+    z-index: 1;
 }
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ff5e00;
+    margin-top: 20px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+}
+
+
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
