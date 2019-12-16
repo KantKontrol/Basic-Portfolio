@@ -4,6 +4,11 @@ body {
     background-image: url('../images/prism.png');
 }
 
+header {
+    background-color: #1d1616;
+    
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ff5e00;
