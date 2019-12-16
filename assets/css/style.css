@@ -12,9 +12,17 @@ header {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #ff5e00;
+    color: #1d1616;
     margin-top: 20px;
     float: left;
+    background-color: #ff5e00;
+}
+
+#nameBox {
+    
+    width:100px;
+    height:30px;
+    background-color:white;
 }
 
 h2 {
