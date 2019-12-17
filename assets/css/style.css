@@ -63,7 +63,17 @@ p {
 
 #profilePic {
     margin-left: 10px;
+    float: left;
     border: 2px solid #4aaaa5;
+}
+
+.mainText {
+    color: #4aaaa5;
+    margin-right: 10px;
+    padding-left: 300px;
+    padding-right: 10px;
+    text-align: justify;
+    text-indent: 30px;
 }
 
 .contentArea {
