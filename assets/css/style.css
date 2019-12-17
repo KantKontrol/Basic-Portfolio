@@ -58,11 +58,25 @@ p {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-color: #1d1616;
     width: 960px;
     flex: 1 0 auto;
 }
+
+
+.contentAreaHeader {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: #1d1616;
+    width: 960px;
+    flex: 1 0 auto;
+}
+
+
 
 ul {
     float: right;
