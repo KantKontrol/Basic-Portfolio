@@ -207,7 +207,7 @@ footer {
     margin-right: auto;
     margin-top: 15px;
     font-weight: bold;
-    width: 200px;
+    width: max-content;
     height: 15px;
     color: #4aaaa5;
 }
