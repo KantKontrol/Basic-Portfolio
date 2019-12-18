@@ -1,5 +1,5 @@
 
-
+//functions mangage the content switching
 function toAbout() {
     window.location.href = "index.html";
 }
@@ -14,7 +14,7 @@ function toPortfolio() {
 
 
 
-//Code that makes button show hover and press
+//Code that makes button show hover and press, would like to find a more recursive way to do this, looks nasty!
 document.getElementById("about").addEventListener("mouseenter", function () {
     document.getElementById("about").style.backgroundColor = "White";
 })

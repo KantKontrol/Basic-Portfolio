@@ -4,6 +4,8 @@ html, body {
     height: 100%;
 }
 
+
+/*sets background image, gets rid of space on edges of screen, uses flex for the sticky footer*/
 body {
     background-image: url('../images/prism.png');
     margin: 0px;
@@ -11,6 +13,7 @@ body {
     flex-direction: column;
 }
 
+/*sets color, pushes content up, adds border, sets the height or thickness as percieved, makes the bar relative to window*/
 header {
     background-color: #1d1616;
     padding-bottom: 10px;
@@ -19,6 +22,7 @@ header {
     position: relative;
 }
 
+/*namebox is the box that adds a seperate color and allows for a border around the h1 tag where it is positioned*/
 #nameBox {
     
     width:300px;
@@ -33,6 +37,7 @@ header {
     z-index: 1;
 }
 
+/*uses z-index to set infront of 'nameBox' positioned absolute so that is positioned with the header and so it can use z-index*/
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
@@ -44,7 +49,7 @@ h1 {
 }
 
 
-
+/* sets up font and colors for headers */
 h2 {
 
     margin-left: 50px;
@@ -61,11 +66,13 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/* ID used to position and style the profile picture in index.html */
 #profilePic {
     margin-left: 10px;
     float: left;
     border: 2px solid #4aaaa5;
 }
+
 
 .mainText {
     color: #4aaaa5;
@@ -76,6 +83,7 @@ p {
     text-indent: 30px;
 }
 
+/* style pertains specifically to the box in the center of the screen */
 .contentArea {
     display:block;
     margin-left: auto;
@@ -88,7 +96,7 @@ p {
     flex: 1 0 auto;
 }
 
-
+/* style pertains specifically to the content area of 960px within the header */
 .contentAreaHeader {
     display:block;
     margin-left: auto;
@@ -96,9 +104,10 @@ p {
     margin-bottom: 50px;
     background-color: #1d1616;
     width: 960px;
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
 }
 
+/* used as a cool blue line between h2 and content */
 .linedevider {
     display: block;
     margin-left: auto;
@@ -125,6 +134,7 @@ button {
     border: 2px solid #4aaaa5;
 }
 
+/* everything below styles the footer, making it sticky, as well as centering the content on it */
 footer {
     border-top: 8px solid #4aaaa5;
     background-color: #1d1616;
