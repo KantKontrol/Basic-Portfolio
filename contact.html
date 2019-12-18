@@ -26,22 +26,26 @@
     </header>
 
     <!-- main content area of page contains information or objects for user interactivity -->
-    <div class="contentArea">
-        <form>
-            <h2>Contact</h2>
+    <section class="contentArea">
 
-            <div class="linedevider"></div>
+        <h2>Contact</h2>
+
+        <div class="linedevider"></div>
+
+        <!-- used this form and input tag layout from this source: https://www.w3schools.com/tags/tag_input.asp -->
+        <form class="inputForm">
+
 
             <h3>Name</h3>
-            <input type="text" name="name"><br>
+            <input class="regInput" type="text" name="name"><br>
             <h3>Email</h3>
-            <input type="text" name="email"><br>
+            <input class="regInput" type="text" name="email"><br>
             <h3>Message</h3>
-            <input type="text" name="msg">
+            <input class="bigInput" type="text" name="msg">
 
-            <input type="submit" value="Submit">
+            <button id="f1" class="formButton">Submit</button>
         </form>
-    </div>
+    </section>
 
     <!-- footer of web page 'sticky' -->
     <footer>

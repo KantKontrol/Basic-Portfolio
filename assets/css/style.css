@@ -66,6 +66,31 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.inputForm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.regInput{
+    width: 200px;
+}
+
+.bigInput {
+    width: 600px;
+    height: 100px;
+}
+
+.formButton {
+    width: 80px;
+    height: 40px;
+    margin-top: 15px;
+    color: #4aaaa5;
+    background-color: #1d1616;
+    border: 2px solid #4aaaa5;
+}
+
 /* ID used to position and style the profile picture in index.html */
 #profilePic {
     margin-left: 10px;
