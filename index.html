@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>My Portfolio</title>
+    <title>Home</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -12,11 +12,14 @@
 
 <body>
 
+    <!-- header bar spans webpage, with div to contain content that sits within the 960px width in center -->
     <header>
         <div class="contentAreaHeader">
             <div id="nameBox"></div>
             <h1>Nicholas DeRissio</h1>
 
+
+            <!-- buttons used for navigating the webpage -->
             <ul>
                 <li><button id="about" class="nav" onclick="toAbout()">About</button></li>
                 <li><button id="contact" class="nav" onclick="toContact()">Contact</button></li>
@@ -26,6 +29,7 @@
     </header>
 
 
+    <!-- main content area of page contains information or objects for user interactivity -->
     <div class="contentArea">
         <h2>About Me</h2>
 
@@ -41,11 +45,12 @@
             awe.</p>
     </div>
 
+    <!-- footer of web page 'sticky' -->
     <footer>
         <div id="footerText">Made By Nicholas DeRissio</div>
     </footer>
 
-
+    <!-- links js to webpage -->
     <script type="text/javascript" src="js/magic.js"></script>
 </body>
 
