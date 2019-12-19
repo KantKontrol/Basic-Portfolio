@@ -90,11 +90,12 @@ p {
     position: absolute;
     bottom: 40px;
     left: -2px;
+    padding-bottom: 10px;
     border: 2px solid #4aaaa5;
 }
 
 
-/* the whole max-content setting for the width attribute was a life saver, i couldnt figure out how to get the text centered with them all being a different lenght */
+/* the whole max-content setting for the width attribute was a life saver, i couldnt figure out how to get the text centered with them all being a different length */
 .itemTitle {
 
     display: block;
@@ -137,7 +138,6 @@ p {
     float: left;
     border: 2px solid #4aaaa5;
 }
-
 
 .mainText {
     color: #4aaaa5;
