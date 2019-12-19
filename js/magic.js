@@ -51,3 +51,18 @@ document.getElementById("portfolio").addEventListener("mousedown", function () {
     document.getElementById("portfolio").style.backgroundColor = "cyan";
 })
 
+if(document.getElementById("f1")){ //returns true if button exists, avoids the script dying everytime the button does not exist
+
+    document.getElementById("f1").addEventListener("mouseenter", function () {
+        document.getElementById("f1").style.backgroundColor = "White";
+    })
+
+    document.getElementById("f1").addEventListener("mouseleave", function () {
+        document.getElementById("f1").style.backgroundColor = "#1d1616";
+    })
+    
+    document.getElementById("f1").addEventListener("mousedown", function () {
+        document.getElementById("f1").style.backgroundColor = "cyan";
+    })   
+}
+

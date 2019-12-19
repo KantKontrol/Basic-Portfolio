@@ -111,7 +111,8 @@ p {
 
 .bigInput {
     width: 600px;
-    height: 100px;
+    padding-bottom: 80px;
+    text-overflow: clip;
 }
 
 .formButton {
