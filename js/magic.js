@@ -14,7 +14,7 @@ function toPortfolio() {
 
 
 
-//Code that makes button show hover and press, would like to find a more recursive way to do this, looks nasty!
+//Code that makes button show hover and press, would like to find a more recursive way to do this, looks nasty! P.S I know you could do this in css, but I just can't wait for some js
 document.getElementById("about").addEventListener("mouseenter", function () {
     document.getElementById("about").style.backgroundColor = "White";
 })
